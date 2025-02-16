@@ -5,11 +5,7 @@
 }
 
 /* Content */
-.content__section {
-    padding: 2rem;
-}
-
-.content-header__link {
+.content__link {
     text-decoration: none;
     color: var(--text-color-link);
 }
