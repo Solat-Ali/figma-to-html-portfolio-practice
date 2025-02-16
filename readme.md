@@ -5,7 +5,7 @@ A simple HTML and CSS implementation of a Figma design.
 [Landing Page](https://www.figma.com/design/gKZoWoleFgP35xvYu83Y2l/Portfolio-UI---Web-%26-Mobile?node-id=6-52&t=XnquBI5h3MOhg1xY-1)
 
 ### 📌 Live Demo: 
-[View on GitHub Pages](<YOUR_GITHUB_PAGES_URL>)
+[View Live](https://solat-ali.github.io/figma-to-html-portfolio-practice/)
 
 ### Screenshot: 
 ![image](https://github.com/user-attachments/assets/c12ac81a-e0b2-476d-90c3-99a81ec368b4)
