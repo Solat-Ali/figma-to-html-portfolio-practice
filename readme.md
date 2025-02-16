@@ -12,8 +12,8 @@ A simple HTML and CSS implementation of a Figma design.
 
 ### 🚀 Tech Stack  
 - **HTML5**  
-- **CSS3**  
-- **JavaScript** (if applicable)  
+- **CSS3**
+- **Bootstrap**
 
 ## 🤝 Contributing
 Feel free to fork, improve, or share feedback via issues or pull requests!
