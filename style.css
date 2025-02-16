@@ -3,3 +3,34 @@
     padding: 0; 
     box-sizing: border-box;
 }
+
+/* Content */
+.content__section {
+    padding: 2rem;
+}
+
+.content-header__link {
+    text-decoration: none;
+    color: var(--text-color-link);
+}
+
+/* Content Stats */
+.content-stats {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 10px;
+}
+
+.content-stats__item-date { 
+    flex-shrink: 0;
+}
+
+.content-stats__item-tag { 
+    flex-grow: 1;
+}
+
+/* Utility */ 
+.text-right { 
+    text-align: right;
+}

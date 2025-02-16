@@ -21,25 +21,256 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <!-- custom styles -->
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/font.css">
+    <link rel="stylesheet" href="./assets/styles/theme.css">
+
+    <!-- layout styles -->
+    <link rel="stylesheet" href="./assets/styles/header.css">
+    <link rel="stylesheet" href="./assets/styles/footer.css">
+
+    <!-- shared styles -->
     <link rel="stylesheet" href="./style.css">
+
+    <!-- home page styles-->
+    <link rel="stylesheet" href="./assets/styles/hero.css">
+    <link rel="stylesheet" href="./assets/styles/blog.css">
+    <link rel="stylesheet" href="./assets/styles/work.css">
 </head>
 
 <body>
+
     <header>
-        Header
+        <nav class="navbar navbar-expand-md bg-light pb-0">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
+
     <section class="content">
         <section class="hero text-center text-lg-start">
-            Hero
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-9 order-2 order-lg-1">
+                        <div class="hero-content mt-4 mt-xl-0 mb-xl-0">
+
+                            <div class="hero-title">
+                                <h1 class="hero-title__name">Hi, I am John,</h1>
+                                <h1 class="hero-title__job">Creative Technologist</h1>
+                            </div>
+
+                            <p class="hero-content__subtitle">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis
+                                enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+
+                            <button class="hero-content__cta">Download Resume</button>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 order-1 order-lg-1">
+                        <div class="hero-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
         <section class="content__section blog">
-            Blog
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h2 class="content-header__title">
+                            Recent posts
+                        </h2>
+                    </div>
+                    <div class="col-6 text-right">
+                        <a href="javascript:void(0)" class="content-header__link">
+                            View all
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="row gy-4 gy-md-0">
+                    <div class="col-12 col-md-6">
+                        <div class="blog-card">
+                            <h3 class="blog-card__title">
+                                Making a design system from scratch
+                            </h3>
+
+                            <div class="content-stats">
+                                <div class="content-stats__item content-stats__item-date">12 Feb 2020</div>
+                                <div class="content-stats__item content-stats__item-divider">|</div>
+                                <div class="content-stats__item content-stats__item-tag">Design, Pattern</div>
+                            </div>
+
+                            <div class="blog-card__text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="blog-card">
+                            <h3 class="blog-card__title">
+                                Creating pixel perfect icons in Figma
+                            </h3>
+
+                            <div class="content-stats">
+                                <div class="content-stats__item content-stats__item-date">12 Feb 2020</div>
+                                <div class="content-stats__item content-stats__item-divider">|</div>
+                                <div class="content-stats__item content-stats__item-tag">Figma, Icon Design</div>
+                            </div>
+
+                            <div class="blog-card__text">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
         <section class="content__section work">
-            Work
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12">
+                        <div class="content-header">
+                            <h2 class="content-header__title">
+                                Featured works
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="work-item">
+                            <div class="work-item__img work-item__img-dashboard">
+                            </div>
+
+                            <div class="work-info">
+                                <h3 class="work-info__title">
+                                    Designing Dashboards
+                                </h3>
+
+                                <div class="content-stats">
+                                    <div class="content-stats__item content-stats__item-date">2018</div>
+                                    <div class="content-stats__item content-stats__item-divider">|</div>
+                                    <div class="content-stats__item content-stats__item-tag">Typography</div>
+                                </div>
+
+                                <div class="work-info__text">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia
+                                    consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="work-item">
+                            <div class="work-item__img work-item__img-art">
+                            </div>
+
+                            <div class="work-info">
+                                <h3 class="work-info__title">
+                                    Vibrant Potraits of 2020
+                                </h3>
+
+                                <div class="content-stats">
+                                    <div class="content-stats__item content-stats__item-date">2020</div>
+                                    <div class="content-stats__item content-stats__item-divider">|</div>
+                                    <div class="content-stats__item content-stats__item-tag">Dashboard</div>
+                                </div>
+
+                                <div class="work-info__text">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia
+                                    consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12">
+                        <div class="work-item">
+                            <div class="work-item__img work-item__img-logo">
+                            </div>
+                            <div class="work-info">
+                                <h3 class="work-info__title">
+                                    36 Days of Malyalam type
+                                </h3>
+
+                                <div class="content-stats">
+                                    <div class="content-stats__item content-stats__item-date">2018</div>
+                                    <div class="content-stats__item content-stats__item-divider">|</div>
+                                    <div class="content-stats__item content-stats__item-tag">Typography</div>
+                                </div>
+
+                                <div class="work-info__text">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia
+                                    consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+
         <footer class="footer mt-5 mb-5 text-center">
-            Footer
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="social-icons mb-2">
+                            <a href="javascript:void(0)" class="social-icons__fb">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="javascript:void(0)" class="social-icons__in">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="javascript:void(0)" class="social-icons__x">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                            <a href="javascript:void(0)" class="social-icons__li">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </div>
+
+                        <div class="footer__copyright">
+                            Copyright &copy; 2025. All rights reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
     </section>
 
@@ -47,7 +278,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>

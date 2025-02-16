@@ -1,0 +1,54 @@
+/* Hero Section */
+.hero {
+    padding-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+.hero-title { 
+    margin-bottom: 2rem;
+}
+
+.hero-title h1 { 
+    /* font-size: 3.5rem; */
+    font-size: clamp(2rem, 1.2021rem + 3.4043vw, 3.5rem);
+    font-weight: 700;
+}
+
+
+.hero-content__subtitle {
+    margin-bottom: 2rem;
+}
+
+
+.hero-content__title-two {
+    padding-right: 50%;
+
+    @media(min-width: 1192px) {
+        padding-right: 0;
+    }
+}
+
+.hero-image {
+    margin: 0 auto;
+    height: 180px;
+    border-radius: 50%;
+    background-image: url('../images/headshot.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    width: 180px;
+    @media screen and (min-width: 1192px) {
+        margin: unset;
+        width: 243px;
+        height: 243px;
+    }
+}
+
+.hero-content__cta {
+    padding: 10px 20px;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 6px;
+}

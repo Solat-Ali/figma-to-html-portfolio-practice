@@ -1,0 +1,10 @@
+/* custom variables */
+:root {
+    --text-color: #000;
+    --text-color-2: #21243D;
+    --text-color-link: #00A8CC;
+    --text-secondary: #8695A4;
+    --text-midnight: #142850;
+    --primary-color: #FF6464;
+    --bg-color: #EDF7FA;
+}

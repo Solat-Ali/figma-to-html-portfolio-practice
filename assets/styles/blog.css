@@ -1,0 +1,17 @@
+
+/* Blog */
+.blog {
+    background-color: var(--bg-color);
+}
+
+.blog-card {
+    background-color: white;
+    padding: 2rem;
+}
+
+
+.blog-card__title {
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+

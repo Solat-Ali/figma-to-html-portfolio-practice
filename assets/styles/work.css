@@ -1,0 +1,67 @@
+/* Featured Work */
+.work-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--text-secondary);
+    flex-direction: column;
+
+    @media screen and (min-width:768px) {
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
+
+
+.work-item__img {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+
+    width: 100%;
+    height: 250px;
+
+    @media screen and (min-width:480px) {
+        width: 250px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    @media screen and (min-width:768px) {
+        width: 250px;
+        height: 200px;
+    }
+}
+
+.work-item__img-dashboard {
+    background-image: url('../images/dashboard.png')
+}
+
+.work-item__img-art {
+    background-image: url('../images/art.png')
+}
+
+.work-item__img-logo {
+    background-image: url('../images/logo.png')
+}
+
+.work-info__title {
+    font-weight: 700;
+}
+
+.work .content-stats__item-date {
+    background-color: var(--text-midnight);
+    color: white;
+    font-weight: bold;
+    padding: 2px 12px;
+    border-radius: 16px;
+    border: none;
+}
+
+.work .content-stats__item-tag {
+    color: var(--text-secondary);
+}
