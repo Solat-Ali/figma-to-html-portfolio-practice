@@ -7,6 +7,17 @@ A simple HTML and CSS implementation of a Figma design.
 ### 📌 Live Demo: 
 [View on GitHub Pages](<YOUR_GITHUB_PAGES_URL>)
 
+### Screenshots: 
+
+**Desktop**
+![image](https://github.com/user-attachments/assets/c12ac81a-e0b2-476d-90c3-99a81ec368b4)
+
+**Tablet**
+![image](https://github.com/user-attachments/assets/3da2a6f4-f450-4f5f-a6d9-592bdb5985a5)
+
+**Mobile**
+![image](https://github.com/user-attachments/assets/90c9d018-f890-4d19-8b99-944fa47efe2a)
+
 ### 🚀 Tech Stack  
 - **HTML5**  
 - **CSS3**  
